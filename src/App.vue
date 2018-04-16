@@ -54,7 +54,7 @@ header {
     min-height: 80vh;
     .sidebar {
         flex: 160px 0 0;
-        border: 1px solid #000000;
+        padding: 10px;
         border-left: none;
         text-align: center;
         li {
@@ -72,6 +72,7 @@ header {
         padding: 10px;
         overflow: hidden;
         background: #f5f5f5;
+        font-size: 24px;        
         .sortBox {
             min-height: 80vh;
             background: #ffffff;
