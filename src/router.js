@@ -3,7 +3,8 @@ import Router from 'vue-router'
 
 // 组件
 import quickSort from './components/quickSort'
-
+import bubbleSort from './components/bubbleSort'
+import heapSort from './components/heapSort'
 Vue.use(Router)
 
 let router = new Router({
@@ -13,6 +14,12 @@ let router = new Router({
     }, {
         path: '/quickSort',
         component: quickSort
+    }, {
+        path: '/bubbleSort',
+        component: bubbleSort
+    }, {
+        path: '/heapSort',
+        component: heapSort
     }]
 })
 export default router

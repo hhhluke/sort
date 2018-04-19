@@ -23,10 +23,13 @@
                     link: 'quickSort'
                 },{
                     name: '冒泡排序',
-                    link: 'quickSort'
+                    link: 'bubbleSort'
                 },{
                     name: '插入排序',
                     link: 'quickSort'
+                },{
+                    name: '堆排序',
+                    link: 'heapSort'
                 }]
             }
         },
