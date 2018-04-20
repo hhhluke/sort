@@ -26,9 +26,10 @@
 
 > 快速排序是对冒泡排序的一种改进。它的基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一不部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
 
-| 平均时间复杂度  |     最好情况     |   最坏情况  |     空间复杂度
-| :--------:    |      :-----:    | :----:     |     :----:
-| O(nlog₂n)      |      O(nlog₂n)   |   O(n²)   |    O(nlog₂n)
+### 复杂度
+| 平均时间复杂度  | 最好情况    |  最坏情况  |    空间复杂度
+| --------       | -----      | :----:    |     :----:    
+| O(nlog₂n)      | O(nlog₂n)  |   O(n²)   |  O(nlog₂n)
 
 整个排序过程只需要三步：
 1. 在数据集之中，选择一个元素作为"基准"（pivot）。
@@ -93,28 +94,5 @@
 </script>
 
 <style>
-table {
-    border-collapse: collapse;
-    border: 1px solid #cccccc;
-}
-th {
-    border: 1px solid #cccccc;
-}
-td{ 
-    border: 1px solid #cccccc;
-}
-    .sortBox {
-        height: 80vh;
-        overflow: auto;
-    }
-
-    .markBox {
-        padding: 20px 0 0 40px;
-        margin-bottom: 20px;
-    }
-
-    pre {
-        background: #e4e5e7;
-    }
 
 </style>

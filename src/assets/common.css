@@ -1,0 +1,42 @@
+.sortDemo {
+    display: flex;
+    min-height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.numBox {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 1px solid #000000;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+th {
+    border: 1px solid #cccccc;
+}
+td{ 
+    border: 1px solid #cccccc;
+}
+    .sortBox {
+        overflow: auto;
+        background: #f5f5d5;
+    }
+
+    .markBox {
+        padding: 20px 0 0 40px;
+        margin-bottom: 20px;
+    }
+
+    pre {
+        border: 3px solid #e0dfcc;
+        border-radius: 10px;
+        overflow: auto;
+        background: #f5f2f0;
+    }

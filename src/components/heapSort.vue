@@ -10,12 +10,6 @@
                 <button @click="calArray">排序</button>
                 <p>结果：{{doneArray}}</p>
             </div>
-            <div>
-                <p>排序过程</p>
-                <div v-for="r in processArray">
-                    <span class="numBox" v-for="c in r">{{c}}</span class="numBox">
-                </div>
-            </div>
         </div>
     </div>
 </template>
@@ -35,8 +29,11 @@
 堆实际上是具有以下性质的完全二叉树：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆；或者每个结点的值都小于或等于其左右孩子结点的值，称为小顶堆。
 
 大顶堆：
+
 ![bigheap](http://owicv5j2l.bkt.clouddn.com/bigheap.png)
+
 小顶堆：
+
 ![smallheap](http://owicv5j2l.bkt.clouddn.com/smallheap.png)
 
 
@@ -46,6 +43,11 @@
 1. 建堆（升序建大堆，降序建小堆）
 2. 交换数据
 3. 向下调整
+
+### 复杂度
+| 平均时间复杂度  | 最好情况    |  最坏情况  |    空间复杂度
+| --------       | -----      | :----:    |     :----:    
+| O(nlogn)      | O(nlogn)  |   O(n²)   |  O(1)
 
 ### 实现图解
 1. 初始化堆
@@ -68,7 +70,6 @@
     ![](http://owicv5j2l.bkt.clouddn.com/initheap5.png)
 
 ### 实现代码
-
 `,
                 code: `
     heapSort(arr) {
@@ -105,7 +106,6 @@
     },`,
                 testArray: '12,26,31,22,5,9,13',
                 doneArray: [],
-                processArray: [],
             }
         },
         computed: {
@@ -161,10 +161,5 @@
 </script>
 
 <style>
-p {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 </style>

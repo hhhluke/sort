@@ -30,6 +30,9 @@
                 },{
                     name: '堆排序',
                     link: 'heapSort'
+                },{
+                    name: '归并排序',
+                    link: 'mergeSort'
                 }]
             }
         },
@@ -48,13 +51,20 @@
 * {
     padding: 0px;
     margin: 0px;
+    background: #f5f5d5;
 }
 header {
     height: 60px;
+    font-size: 48px;
+    text-align: center;
 }
 .wrapper {
     display: flex;
-    min-height: 80vh;
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
     .sidebar {
         flex: 160px 0 0;
         padding: 10px;
@@ -74,12 +84,9 @@ header {
         clear: both;
         padding: 10px;
         overflow: hidden;
-        background: #f5f5f5;
-        font-size: 24px;        
-        .sortBox {
-            min-height: 80vh;
-            background: #ffffff;
-        }
+        font-size: 24px;
+        border: 3px solid #cccccc;
+        border-radius: 10px;
     }
 }
 </style>
