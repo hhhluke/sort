@@ -6,6 +6,7 @@ import quickSort from './components/quickSort'
 import bubbleSort from './components/bubbleSort'
 import heapSort from './components/heapSort'
 import mergeSort from './components/mergeSort'
+import insertSort from './components/insertSort'
 Vue.use(Router)
 
 let router = new Router({
@@ -24,6 +25,9 @@ let router = new Router({
     }, {
         path: '/mergeSort',
         component: mergeSort
+    }, {
+        path: '/insertSort',
+        component: insertSort
     }]
 })
 export default router

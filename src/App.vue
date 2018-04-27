@@ -26,7 +26,7 @@
                     link: 'bubbleSort'
                 },{
                     name: '插入排序',
-                    link: 'quickSort'
+                    link: 'insertSort'
                 },{
                     name: '堆排序',
                     link: 'heapSort'
