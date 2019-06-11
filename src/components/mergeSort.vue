@@ -35,7 +35,7 @@
 
 ### 实现图解
 
-![mergesort](http://owicv5j2l.bkt.clouddn.com/mergeSort.png)
+![mergesort](http://dry-image.test.upcdn.net/mergeSort.png)
 
 
 ### 实现代码

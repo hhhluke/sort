@@ -30,11 +30,11 @@
 
 大顶堆：
 
-![bigheap](http://owicv5j2l.bkt.clouddn.com/bigheap.png)
+![bigheap](http://dry-image.test.upcdn.net/bigheap.png)
 
 小顶堆：
 
-![smallheap](http://owicv5j2l.bkt.clouddn.com/smallheap.png)
+![smallheap](http://dry-image.test.upcdn.net/smallheap.png)
 
 
 
@@ -52,22 +52,22 @@
 ### 实现图解
 1. 初始化堆
 
-    ![init](http://owicv5j2l.bkt.clouddn.com/initheap.png)
+    ![init](http://dry-image.test.upcdn.net/initheap.png)
 2. 创建大顶堆,从第一个非叶子节点开始，往上遍历，保证每个非叶子节点比它的叶子节点值大
 
-    ![big](http://owicv5j2l.bkt.clouddn.com/initheap1.png)
+    ![big](http://dry-image.test.upcdn.net/initheap1.png)
     =>
-    ![big1](http://owicv5j2l.bkt.clouddn.com/initheap2.png)
+    ![big1](http://dry-image.test.upcdn.net/initheap2.png)
 
 3. 将堆顶元素和末尾元素交换，使末尾元素最大，然后继续往上调整。这时候堆其实分成了两块，无序堆(1到n-1)和有序堆(n)
 
-    ![](http://owicv5j2l.bkt.clouddn.com/initheap3.png)
+    ![](http://dry-image.test.upcdn.net/initheap3.png)
     =>
-    ![](http://owicv5j2l.bkt.clouddn.com/initheap4.png)
+    ![](http://dry-image.test.upcdn.net/initheap4.png)
 
 4. 重复步骤3,完成堆排序
 
-    ![](http://owicv5j2l.bkt.clouddn.com/initheap5.png)
+    ![](http://dry-image.test.upcdn.net/initheap5.png)
 
 ### 实现代码
 `,

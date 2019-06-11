@@ -38,7 +38,7 @@
 
 ### 实现图解:
 
-![a](http://owicv5j2l.bkt.clouddn.com/quicksort.png)
+![a](http://dry-image.test.upcdn.net/quicksort.png)
 
 ### 实现代码:
 `,
@@ -94,5 +94,6 @@
 </script>
 
 <style>
+
 
 </style>

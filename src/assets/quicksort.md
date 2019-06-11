@@ -4,7 +4,7 @@
 
 ### 复杂度
 | 平均时间复杂度  | 最好情况    |  最坏情况  |    空间复杂度
-| --------       | -----      | :----:    |     :----:    
+| --------       | -----      | :----:    |     :----:
 | O(nlog₂n)      | O(nlog₂n)  |   O(n²)   |  O(nlog₂n)
 
 整个排序过程只需要三步：
@@ -14,7 +14,7 @@
 
 ### 实现图解:
 
-![a](http://owicv5j2l.bkt.clouddn.com/quicksort.png)
+![a](http://dry-image.test.upcdn.net/quicksort.png)
 
 ### 实现代码:
 ```
